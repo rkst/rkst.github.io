@@ -2,57 +2,65 @@
 /* Page Styles
 ================================ */
 
-body {
-	font-family: 'Nunito', sans-serif;
-	padding: 0;
-	margin: 0 auto;
-	overflow-x : hidden;
+body
+{
+		font-family: 'Lato', sans-serif;
+		
+    overflow-x: hidden;
 
+    margin: 0 auto;
+    padding: 0;
 }
 
-#wrapper {
-	width: auto;
-	margin: 0 auto;
+#wrapper
+{
+    width: auto;
+    margin: 0 auto;
 }
-
 
 /* Top Section
 ================================ */
-#top-section {
-	margin: 20% auto 0;
+#top-section
+{
+    margin: auto 0;
 }
 
 
-.title {
-	display: inline-block;
-	margin: 0 auto;
-
+.title
+{
+		font-size: 700;
+    width: 196px;
+    margin: 0 auto;
 }
 
 
 
-span {
-		font-size: 1.75rem;
-		font-weight: 300;
-
+span
+{
+    font-size: 1.75rem;
+    font-weight: 100;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
- 	width: 50%;
+img
+{
+    display: block;
+
+    width: 50%;
+    margin: 0 auto;
 }
 
-.clip-circle {
- -webkit-clip-path: circle(50% at 50% 50%);
-	clip-path: circle(50% at 50% 50%);
+.clip-circle
+{
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
 }
 
-.about-text {
-	font-weight: 400;
-	font-size: 1.25em;
-	margin: 0 auto;
-	width: 80%;
-	padding: 20px 0 0 0;
+.about-text
+{
+    font-size: 1.25em;
+    font-weight: 300;
 
+    width: 77%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
 }

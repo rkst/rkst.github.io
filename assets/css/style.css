@@ -4,12 +4,11 @@
 
 body
 {
-		font-family: 'Lato', sans-serif;
-		
+    font-family: 'Muli', sans-serif;
+
     overflow-x: hidden;
 
-    margin: 0 auto;
-    padding: 0;
+    background-color: #dadadc;
 }
 
 #wrapper
@@ -22,14 +21,16 @@ body
 ================================ */
 #top-section
 {
-    margin: auto 0;
+    margin: -10% 0 0;
 }
 
 
 .title
 {
-		font-size: 700;
-    width: 196px;
+    font-size: 1.6em;
+    font-weight: 400;
+
+    width: 315px;
     margin: 0 auto;
 }
 
@@ -37,15 +38,25 @@ body
 
 span
 {
-    font-size: 1.75rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
     font-weight: 100;
+}
+
+h1
+{
+    padding-bottom: 3%;
+
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: #a50000;
 }
 
 img
 {
     display: block;
 
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -57,10 +68,17 @@ img
 
 .about-text
 {
-    font-size: 1.25em;
+    font-size: 1.70em;
     font-weight: 300;
 
-    width: 77%;
+    width: 65%;
     margin: 0 auto;
-    padding: 20px 0 0 0;
+    padding: 5% 0 10% 0;
+
+    letter-spacing: 1px;
+}
+
+a
+{
+    color: inherit;
 }

@@ -1,13 +1,23 @@
 
+/* Fonts
+================================ */
+body
+{
+    font-family: 'Muli', sans-serif;
+}
+
+span
+{
+    font-family: 'Lato', sans-serif;
+}
+
+
 /* Page Styles
 ================================ */
 
 body
 {
-    font-family: 'Muli', sans-serif;
-
     overflow-x: hidden;
-
     background-color: #dadadc;
 }
 
@@ -17,20 +27,20 @@ body
     margin: 0 auto;
 }
 
-/* Top Section
-================================ */
+
 #top-section
 {
     margin: -10% 0 0;
 }
 
+/* Title
+================================ */
 
 .title
 {
-    font-size: 1.6em;
+    font-size: 1.3rem;
     font-weight: 400;
-
-    width: 315px;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -38,7 +48,6 @@ body
 
 span
 {
-    font-family: 'Lato', sans-serif;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -46,16 +55,17 @@ span
 h1
 {
     padding-bottom: 3%;
-
     border-bottom-width: medium;
     border-bottom-style: solid;
     border-bottom-color: #a50000;
 }
 
+/* Profile Picture
+================================ */
+
 img
 {
     display: block;
-
     width: 70%;
     margin: 0 auto;
 }
@@ -66,19 +76,59 @@ img
             clip-path: circle(50% at 50% 50%);
 }
 
+/* About Me Text
+================================ */
+
 .about-text
 {
     font-size: 1.70em;
     font-weight: 300;
-
     width: 65%;
     margin: 0 auto;
     padding: 5% 0 10% 0;
-
     letter-spacing: 1px;
 }
 
 a
 {
     color: inherit;
+}
+
+/* Footer
+================================ */
+
+
+/* Media Queries
+================================ */
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px){
+
+  .title{
+    font-size: 1.6rem;
+    width: 315px;
+  }
+
+  .about-text {
+    font-size: 1.70em;
+
+  }
+
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+   /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }

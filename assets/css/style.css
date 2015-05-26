@@ -25,7 +25,7 @@ body
 {
     width: auto;
     margin: 0 auto;
-    
+
 }
 
 
@@ -179,6 +179,22 @@ a:focus {
 
 @media only screen and (min-width: 768px) {
 
+#wrapper {
+  background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_large.jpg") #181C1C no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top-section {
+  margin: 0;
+  padding: 50px 0 300px;
+}
+img {
+  display: none;
+
+}
 }
 
 

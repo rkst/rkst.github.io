@@ -179,17 +179,19 @@ a:focus {
 
 @media only screen and (min-width: 768px) {
 
-#wrapper {
-  background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_large.jpg") #181C1C no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body{
+
 }
 
 #top-section {
-  margin: 0;
-  padding: 50px 0 300px;
+  background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_large.jpg") #181C1C no-repeat center center;
+  height: 1000px;
+  width: 100%;
+  -webkit-background-size: cover ;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:-34px 0 0;
 }
 img {
   display: none;

@@ -31,7 +31,7 @@ body
 
 #top-section
 {
-    margin: -10% 0 0;
+    margin: -15% 0 0;
 }
 
 /* Title
@@ -147,6 +147,8 @@ a:focus {
 /* Media Queries
 ================================ */
 @media only screen and (min-width: 400px){
+
+
   .title{
     font-size: 1.4rem;
     width: 270px;
@@ -162,6 +164,9 @@ a:focus {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px){
+  #top-section {
+    margin: -10% 0 0;
+  }
 
   .title{
     font-size: 1.6rem;
@@ -179,13 +184,10 @@ a:focus {
 
 @media only screen and (min-width: 768px) {
 
-body{
-
-}
 
 #top-section {
-  background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_large.jpg") #181C1C no-repeat center center;
-  height: 1000px;
+  background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_larger.jpg") #dadadc no-repeat center center;
+  height: 768px;
   width: 100%;
   -webkit-background-size: cover ;
   -moz-background-size: cover;
@@ -193,9 +195,19 @@ body{
   background-size: cover;
   margin:-34px 0 0;
 }
+
+.title {
+  margin: 0 10%;
+
+}
 img {
   display: none;
 
+}
+
+.about-text {
+  width: 40%;
+  margin: 0 10%;
 }
 }
 

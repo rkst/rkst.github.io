@@ -18,6 +18,7 @@ span
 body
 {
     overflow-x: hidden;
+
     background-color: #dadadc;
 }
 
@@ -25,7 +26,6 @@ body
 {
     width: auto;
     margin: 0 auto;
-
 }
 
 
@@ -41,11 +41,12 @@ body
 {
     font-size: 1.3rem;
     font-weight: 400;
+
     width: 250px;
     margin: 0 auto;
+
     orphans: 2;
 }
-
 
 
 span
@@ -54,9 +55,11 @@ span
     font-weight: 100;
 }
 
+
 h1
 {
     padding-bottom: 3%;
+
     border-bottom-width: medium;
     border-bottom-style: solid;
     border-bottom-color: #a50000;
@@ -68,6 +71,7 @@ h1
 img
 {
     display: block;
+
     width: 70%;
     margin: 0 auto;
 }
@@ -85,59 +89,58 @@ img
 {
     font-size: 1.30rem;
     font-weight: 300;
+    line-height: 1.5;
+
     width: 75%;
     margin: 0 auto;
     padding: 5% 0 10% 0;
+
     letter-spacing: 1px;
-    line-height: 1.5;
-
-
-
-
-
 }
 
 
 a
 {
-  vertical-align: top;
-text-decoration: none;
-position: relative;
-display: inline-block;
-color: inherit;
-text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    position: relative;
 
-border-bottom-width: thin;
-border-bottom-style: solid;
-border-bottom-color: #a50000;
+    display: inline-block;
 
+    vertical-align: top;
+    text-decoration: none;
 
+    color: inherit;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #a50000;
+    text-shadow: 0 0 1px rgba(255,255,255,.3);
 }
 
-a:hover,
-a:focus {
-	outline: none;
-}
 
 /* Fade */
-.hvr-fade {
-  display: inline-block;
+.hvr-fade
+{
+    display: inline-block;
+    overflow: hidden;
 
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-property: color, background-color;
-  transition-property: color, background-color;
+    -webkit-transition-duration: .4s;
+            transition-duration: .4s;
+    -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
 }
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #a50000;
-  color: white;
+.hvr-fade:hover,
+.hvr-fade:focus,
+.hvr-fade:active
+{
+    color: white;
+    background-color: #a50000;
 }
 
 /* Footer
@@ -146,78 +149,87 @@ a:focus {
 
 /* Media Queries
 ================================ */
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 400px)
+{
+    .title
+    {
+        font-size: 1.4rem;
 
+        width: 270px;
+    }
 
-  .title{
-    font-size: 1.4rem;
-    width: 270px;
-  }
+    .about-text
+    {
+        font-size: 1.4em;
 
-  .about-text {
-    font-size: 1.4em;
-    width: 75%;
-
-  }
+        width: 75%;
+    }
 }
 
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px){
-  #top-section {
-    margin: -10% 0 0;
-  }
+@media only screen and (min-width: 480px)
+{
+    #top-section
+    {
+        margin: -10% 0 0;
+    }
 
-  .title{
-    font-size: 1.6rem;
-    width: 315px;
-  }
+    .title
+    {
+        font-size: 1.6rem;
 
-  .about-text {
-    font-size: 1.70em;
-    width: 80%;
+        width: 315px;
+    }
 
-  }
+    .about-text
+    {
+        font-size: 1.70em;
+
+        width: 80%;
+    }
 }
 
 /* Small Devices, Tablets */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px)
+{
+    #top-section
+    {
+        width: 100%;
+        height: 768px;
+        margin: -34px 0 0;
 
+        background: url('https://s3.amazonaws.com/robbie-site-assets/Robbie_image_larger.jpg') #dadadc no-repeat center center;
+        -webkit-background-size: cover ;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
 
-#top-section {
-  background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_larger.jpg") #dadadc no-repeat center center;
-  height: 768px;
-  width: 100%;
-  -webkit-background-size: cover ;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin:-34px 0 0;
-}
+    .title
+    {
+        margin: 0 10%;
+    }
+    img
+    {
+        display: none;
+    }
 
-.title {
-  margin: 0 10%;
-
-}
-img {
-  display: none;
-
-}
-
-.about-text {
-  width: 40%;
-  margin: 0 10%;
-}
+    .about-text
+    {
+        width: 40%;
+        margin: 0 10%;
+    }
 }
 
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+@media only screen and (min-width : 992px)
+{
 }
 
-   /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
 }

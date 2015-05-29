@@ -14,5 +14,5 @@ $(function() {
 //this is the funtion that is being used
 function resize() {
 	var _outerHeight = jQuery(window).height();
-	jQuery('#top-section').height(_outerHeight);
+	jQuery('body').height(_outerHeight + 100);
 }

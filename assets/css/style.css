@@ -180,23 +180,29 @@ a:focus {
   }
 }
 
+
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
 
 
-#top-section {
+body {
   background:url("https://s3.amazonaws.com/robbie-site-assets/Robbie_image_larger.jpg") #dadadc no-repeat center center;
-  height: 768px;
+  height: 1000px;
   width: 100%;
   -webkit-background-size: cover ;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin:-34px 0 0;
+  margin:0 auto;
+}
+
+.top-section {
+  margin: 0;
 }
 
 .title {
+  display: inline-block;
   margin: 0 10%;
 
 }
@@ -206,6 +212,7 @@ img {
 }
 
 .about-text {
+  display: inline-block;
   width: 40%;
   margin: 0 10%;
 }
@@ -217,7 +224,18 @@ img {
 
 }
 
-   /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/* Height based media queries */
+@media only screen and (min-height : 690px) {
+  .about-text {
+    padding: 5% 0 0 0;
+  }
+
 
 }

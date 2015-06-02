@@ -211,6 +211,7 @@ body {
 }
 
 .title {
+  text-align: left;
   display: inline-block;
   margin: 0 10%;
 

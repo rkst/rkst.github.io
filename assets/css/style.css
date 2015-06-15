@@ -120,22 +120,10 @@ border-bottom-color: #a50000;
 /* Fade */
 .hvr-fade {
   display: inline-block;
-
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-property: color, background-color;
-  transition-property: color, background-color;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #a50000;
-  color: white;
+
+  color: #a50000;
 }
 
 /* Footer
@@ -190,6 +178,12 @@ border-bottom-color: #a50000;
 
 }
 
+/* Height based media queries */
+@media only screen and (min-height : 690px) {
+  .about-text {
+    padding: 5% 0 0 0;
+  }
+
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
@@ -214,6 +208,7 @@ body {
   text-align: left;
   display: inline-block;
   margin: 0 10%;
+  float: left;
 
 }
 img {
@@ -222,31 +217,45 @@ img {
 }
 
 .about-text {
+  float: left;
+  clear: left;
   text-align: left;
   display: inline-block;
   width: 40%;
   margin: 0 10%;
 }
-}
+
+
+
 
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 982px) {
+  .about-text {
+    width: 390px;
+  }
 
-}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+
+@media only screen and (min-width : 1200px) {
+    .title {
+      font-size: 2rem;
+      width: 392px;
+    }
+    .about-text{
+      font-size: 2.1rem;
+      padding: 0 0 0 0;
+      width: 450px;
+    }
+
 }
 
 
 
-/* Height based media queries */
-@media only screen and (min-height : 690px) {
-  .about-text {
-    padding: 5% 0 0 0;
-  }
+
 
 
 }

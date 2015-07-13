@@ -178,11 +178,7 @@ border-bottom-color: #a50000;
 
 }
 
-/* Height based media queries */
-@media only screen and (min-height : 690px) {
-  .about-text {
-    padding: 5% 0 0 0;
-  }
+
 
 /* Small Devices, Tablets */
 
@@ -225,7 +221,17 @@ img {
   margin: 0 10%;
 }
 
+/* Height based media queries */
+@media only screen and (max-height : 690px) {
+  .title h1 {
+    display: inline-block;
+    margin-top: -5%;
+    margin-bottom: 0;
+  }
 
+  .about-text {
+    padding: 2% 0 0 0;
+  }
 
 
 

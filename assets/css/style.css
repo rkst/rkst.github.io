@@ -168,7 +168,7 @@ border-bottom-color: #a50000;
   img
   {
 
-      width: 60%;
+      width: 55%;
 
   }
 
@@ -197,7 +197,7 @@ border-bottom-color: #a50000;
 
 /* Small Devices, Tablets */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 530px) {
 
 
 body {
@@ -220,7 +220,7 @@ body {
   display: inline-block;
   margin: 0 10%;
   float: left;
-  width: 50%;
+  width: 60%;
 
 }
 img {
